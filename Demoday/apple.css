@@ -1,0 +1,184 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+.container {
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+
+}
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    height: 4.4rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(2rem);
+    width: 100%;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 7rem;
+    
+
+}
+.nav-list-mobile {
+    display: none;
+
+}
+.nav-link {
+    font-size: 1.2rem;
+    color: white;
+    padding: 0 3rem;
+    transition: opacity .5s;
+}
+.nav-link:hover {
+    opacity: .7;
+}
+.nav-link-apple {
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("images/640px-Apple-logo.png") center no-repeat;
+    
+}
+.nav-link-search {
+        width: 1.6rem;
+        height: 4.4rem;
+        background: url("images/outline_search_white_24dp.png") center no-repeat;
+        
+}
+.nav-link-bag {
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("images/bag.png") center no-repeat;
+    
+}
+.iphone-13-pro {
+ 
+    background: url(images/gsmarena_003-removebg-preview.png);
+    margin-top: 18.4rem;
+   
+}
+.hero {
+    background-size: auto 45.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 69.2rem;
+}
+.title {
+    color: black;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+.title-heading {
+    font-size: 3.4rem;
+    line-height: 1.07;
+    margin-top: -5rem;
+    letter-spacing: -0.1rem;
+    font-weight: 600;
+}
+.title-sub-heading {
+    font-size: 2.0rem;
+    font-weight: 400;
+    margin-top: .6rem;
+}
+.cta {
+    text-align: center;
+    margin-top: 1.3rem;
+
+}
+.cta-link {
+    color: #66bbff;
+    font-size: 2.2rem;
+    display: inline-block;
+}
+.cta-link:nth-child(2) {
+    margin-left: 1.8rem;
+}
+.cta-link:hover {
+    border-bottom: 2px solid #66bbff;
+}
+/* iphone-se section */
+.ontop {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.iphone-se {
+    background: url(images/Apple-iPhoneSE-double-infinity-220308_Full-Bleed-Image.jpg.slideshow-xlarge-removebg-preview.png);
+    
+} 
+.se {
+    font-size: 2.1rem;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 1px;
+    
+;
+    
+}
+.hero {
+    background-size: auto 45.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 59.2rem;
+
+}
+.ipad {
+    height: 95rem;
+    background-size: auto 45.6rem;
+    background: url(images/iris__fnhnshkpwl6y_large_2x-removebg-preview.png) center no-repeat;
+}
+.hero2 {
+    background-color: black;
+    width: 100%;
+    height: 90rem;
+}
+.studio {
+    background: url(images/studio-display-og-202203.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+    margin-bottom: -2rem;
+}
+.mac {
+    background: url(images/mac-studio-front.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 55rem;
+    background-size: 40.6rem;
+    margin-top: 4.3rem;
+}
+.iphone-13 {
+    background: url(images/iphone-13-2022-gallery-1-thumb-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45.6rem;
+    height: 60rem;
+
+}
+.Watch {
+    background: url(images/images-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45.6rem;
+
+}
+.buttom {
+    margin: 0 50px;
+}
